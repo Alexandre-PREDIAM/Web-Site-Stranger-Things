@@ -1,0 +1,83 @@
+head, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************** NAVBAR *********************/
+
+.navbar {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+.logo-nav {
+  margin-top: 13px;
+  margin-left: 40px;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  float: right;
+  margin-top: 13px;
+  margin-right: 35px;
+}
+
+.text-nav {
+  position: relative;
+  bottom: 5px;
+  font-size: 13px;
+}
+
+.btn-nav-1 {
+  height: 30px;
+  width: 140px;
+  border: none;
+  border-radius: 2px;
+  background: rgba(255, 0, 0, 0.89);
+  color: #fff;
+}
+
+.btn-nav-1:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 0);
+  color: #fff;
+}
+
+.btn-nav-2 {
+  height: 30px;
+  width: 140px;
+  border: none;
+  border-radius: 2px;
+  border: #fff 0.5px solid;
+  background: #000;
+  color: #fff;
+}
+
+.btn-nav-2:hover {
+  cursor: pointer;
+  background: rgba(94, 92, 92, 0.548);
+  color: #fff;
+}
+
+/************************* BG HEADER ********************/
+
+.bg-header {
+  background: url("https://occ-0-5351-56.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19") no-repeat 50% 50%;
+  height: 799px;
+  width: auto;
+  background-size: cover;
+}
+
+.logo-casa-header {
+  margin-top: 200px;
+  margin-left: 80px;
+}
+
+/**/
