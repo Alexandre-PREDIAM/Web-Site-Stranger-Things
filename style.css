@@ -69,15 +69,24 @@ head, body {
 /************************* BG HEADER ********************/
 
 .bg-header {
-  background: url("https://occ-0-5351-56.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19") no-repeat 50% 50%;
+  background: url("https://www.ecranlarge.com/uploads/image/001/433/stranger-things-photo-1433894.jpg") no-repeat 50% 50%;
   height: 799px;
   width: auto;
+  position: 50%;
   background-size: cover;
 }
 
-.logo-casa-header {
-  margin-top: 200px;
+.logo-header {
+  margin-top: 250px;
   margin-left: 80px;
+  filter: grayscale(100%);
+  transition: 0.4s ease-in-out;
+}
+
+.logo-header:hover {
+  filter: grayscale(0%);
+  filter: blur(80%);
+  transition: 0.4s ease-in-out;
 }
 
 /**/
